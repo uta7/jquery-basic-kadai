@@ -1,6 +1,6 @@
 $(function() {
     $("#change-color").on("click", function() {
-        $("target").css("color", "#ff0000");
+        $("#target").css("color", "#ff0000");
     });
     $("#change-text").on("click", function() {
         $("#target").text("Hello");
